@@ -253,7 +253,7 @@ Your priority should be the main tasks: focus on building reliable models, tryin
    - For example:
       - Generate charts exploring how sentiment varies by product, review length, or time.
       - Generate a chart of the most frequent complaint themes per product or category.
-      - Create an interactive dashboard (e.g. Gradio or Streamlit) showing sentiment distribution, top products, and common complaints per category.
+      - Create an interactive dashboard (for example, using Streamlit) showing sentiment distribution, top products, and common complaints per category.
       - ...
 
 </details>
