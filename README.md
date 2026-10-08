@@ -203,20 +203,29 @@ Notes:
 
    Now it's time to make your model usable by others. Deploy the sentiment classifier from Task 1 as a simple web app that anyone can try.
 
-   - Goal: Ship a working, publicly accessible demo where users can paste a review and get a sentiment prediction.
+   - Goals: 
+      - Build and deploy a working web application where users can enter a customer review and receive a sentiment prediction.
+      - Practice researching and solving problems on your own. In real-world projects, you will often need to work with tools and technologies that you haven't used before. Learning how to find the information you need and figure things out is an important skill for an AI Engineer.
    - Tasks:
       - Build a simple interface where a user can enter the text of a review and receive a predicted sentiment (positive, negative, or neutral), ideally with confidence scores for each class.
-      - Deploy it so that it's accessible through a public URL.
+      - Deploy the application so that it is accessible through a public URL.
 
    <br />
 
-   **Recommended option: Gradio + Hugging Face Spaces**
+   **Recommended option: Streamlit + Hugging Face Spaces**
 
-   [Gradio](https://www.gradio.app/) lets you build an ML demo interface in a few lines of Python, and [Hugging Face Spaces](https://huggingface.co/spaces) hosts it for free. Together, they're one of the simplest ways to deploy a model.
+
+   - [Streamlit](https://streamlit.io/) allows you to build interactive Python web applications with relatively little code, making it a good choice for turning your machine learning model into a simple user-facing application.
+
+   - [Hugging Face Spaces](https://huggingface.co/spaces) provides a convenient way to host and publicly share your application.
+
+   Together, they provide a simple way to deploy your sentiment analysis model without managing your own server.
+
 
    Notes:
-   - You'll need to do some research on your own for this task (documentation and tutorials are plentiful).
-   - If you prefer, you can use other tools (e.g., Streamlit, FastAPI + a hosting service), as long as the app is publicly accessible. We'll explore other deployment options later in the course.
+   - For this task you'll need to do your own research. Documentation and tutorials for both Streamlit and Hugging Face Spaces are plentiful.
+
+   - If you prefer, you can use other tools or deployment approaches (e.g., Streamlit + Streamlit Community Cloud, Gradio, etc.), as long as your application is publicly accessible. We'll explore other deployment options later in the course.
 
 </details>
 
